@@ -8,11 +8,19 @@ img {
 }
 
 div div {
-	margin: auto;
-	width: 33%;
 	height: 250px;
 }
 
 #big_div {
 	border: 5px solid black;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+#sub_div2 {
+	align-content: center;
+}
+
+#sub_div3 {
+	align-content: end;
 }
